@@ -35,32 +35,33 @@
 }
 
 .cell{
-    background-color: tomato;
+    background-color: rgb(59, 163, 104);
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 25px;
     cursor: pointer;
+    user-select: none;
+    border-radius: 5px;
     
 }
 
 .bg-color{
-    background-color: crimson;
+    background-color: white;
 }
 
 .button{
     margin: 10px 0;
     padding: 10px 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     color: white;
-    background-color: darkkhaki;
+    background-color: rgb(146, 171, 138);
+    line-height: 40px;
 }
 
-.color_button{
-    background-color: crimson;
-}
+
 
 .levels{
     gap: 10px;
@@ -70,4 +71,20 @@
 
 .bomb{
     background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    user-select: none;
+    border-radius: 5px;
+}
+
+.cell_cliked{
+    pointer-events: none;
+}
+
+
+select{
+    appearance: none;
 }
